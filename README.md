@@ -37,10 +37,20 @@ Welcome to the **Real-Time Object Detection and Tracking** project, developed us
 
 ## 📸 Results
 Below is a live detection snapshot showcasing the project's capability:
+![Screenshot 2024-11-26 000201](https://github.com/user-attachments/assets/dd730bf1-b602-4878-ae9f-d82ef0ec41d8)
 
-![Live Detection Output](Screenshot%202024-11-26%20000201.png)
 
 This image demonstrates YOLOv8 detecting objects such as a person, a phone, and a remote with associated confidence scores.
+
+2. Urban Street Detection Example
+Input Video (Urban Street)
+This is the raw input video of an urban street scene used for testing the YOLOv8 model.
+
+
+
+
+Output Video (Annotated Urban Street)
+This is the output video where YOLOv8 has detected multiple objects with bounding boxes and confidence scores.
 
 ---
 
@@ -78,7 +88,7 @@ This image demonstrates YOLOv8 detecting objects such as a person, a phone, and 
 ### Steps:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/real-time-object-detection.git
+   git clone https://github.com/delanie-06/real-time-object-detection.git
    ```
 2. Install dependencies:
    ```bash
@@ -89,9 +99,5 @@ This image demonstrates YOLOv8 detecting objects such as a person, a phone, and 
    python your_script_name.py
    ```
 
----
 
-## 🌟 Acknowledgments
-- **Guide:** Prof. Mrunal Rane
-- Developed as a part of the Image Processing and Computer Vision curriculum.
 
