@@ -47,14 +47,50 @@ This image demonstrates YOLOv8 detecting objects such as a person, a phone, and 
 #### Input Video (Urban Street)
 This is the raw input video of an urban street scene used for testing YOLOv5.
 
-[Watch Input Video](https://github.com/delanie-06/delanie-06-YOLO-vision-and-RealTime-Detection/blob/main/854100-hd_1920_1080_25fps.mp4)
+<video width="640" height="360" controls>
+  <source src="https://github.com/delanie-06/delanie-06-YOLO-vision-and-RealTime-Detection/raw/main/854100-hd_1920_1080_25fps.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 #### Output Video (Annotated Urban Street)
 This is the output video where YOLOv5 has detected multiple objects with bounding boxes and confidence scores.
 
-[Watch Output Video](https://github.com/delanie-06/delanie-06-YOLO-vision-and-RealTime-Detection/blob/main/Screen%20Recording%202024-11-25%20233110.mp4)
----
+<video width="640" height="360" controls>
+  <source src="https://github.com/delanie-06/delanie-06-YOLO-vision-and-RealTime-Detection/raw/main/Screen%20Recording%202024-11-25%20233110.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Option 2: Embed from YouTube or Vimeo (recommended)
+If you'd like to have the video embedded directly in the README (with playback controls), you can upload the video to a platform like YouTube or Vimeo, then embed it using the embed code provided by those platforms.
 
+For example, after uploading your videos to YouTube, use the embed code like this:
+
+markdown
+Copy code
+# YOLO Vision and Real-Time Detection
+
+This project demonstrates **YOLOv5** object detection applied to real-time video streams. It includes live detection of objects such as people, phones, remotes, and more, along with the ability to process and output annotated videos in real-time.
+
+## 📸 Results
+
+### 1. Live Detection Snapshot
+Below is a snapshot showcasing the real-time detection:
+
+![Live Detection Output](Screenshot%202024-11-26%20000201.png)
+
+### 2. Urban Street Detection Example
+
+#### Input Video (Urban Street)
+This is the raw input video of an urban street scene used for testing YOLOv5.
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
+
+#### Output Video (Annotated Urban Street)
+This is the output video where YOLOv5 has detected multiple objects with bounding boxes and confidence scores.
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
+
+
+---
 ## 🎥 Workflow Overview
 1. Input a high-definition video (e.g., an urban street scene).
 2. YOLOv8 processes each frame for object detection.
