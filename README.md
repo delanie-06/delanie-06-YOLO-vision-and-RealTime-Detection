@@ -42,16 +42,17 @@ Below is a live detection snapshot showcasing the project's capability:
 
 This image demonstrates YOLOv8 detecting objects such as a person, a phone, and a remote with associated confidence scores.
 
-2. Urban Street Detection Example
-Input Video (Urban Street)
-This is the raw input video of an urban street scene used for testing the YOLOv8 model.
+### 2. Urban Street Detection Example
 
+#### Input Video (Urban Street)
+This is the raw input video of an urban street scene used for testing YOLOv5.
 
+[Watch Input Video](https://github.com/delanie-06/delanie-06-YOLO-vision-and-RealTime-Detection/blob/main/854100-hd_1920_1080_25fps.mp4)
 
+#### Output Video (Annotated Urban Street)
+This is the output video where YOLOv5 has detected multiple objects with bounding boxes and confidence scores.
 
-Output Video (Annotated Urban Street)
-This is the output video where YOLOv8 has detected multiple objects with bounding boxes and confidence scores.
-
+[Watch Output Video](https://github.com/delanie-06/delanie-06-YOLO-vision-and-RealTime-Detection/blob/main/Screen%20Recording%202024-11-25%20233110.mp4)
 ---
 
 ## 🎥 Workflow Overview
